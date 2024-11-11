@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Your Smoothie</title>
+  <link rel="stylesheet" href="smoothie.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Customize Your Smoothie Order</h1>
+    <form id="smoothieForm">
+      <!-- Size -->
+      <label for="size">Size:</label>
+      <select id="size" name="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+      
+      <!-- Base -->
+      <label for="base">Base:</label>
+      <select id="base" name="base">
+        <option value="milk">Milk</option>
+        <option value="almondMilk">Almond Milk</option>
+        <option value="juice">Juice</option>
+        <option value="yogurt">Yogurt</option>
+      </select>
+
+      <!-- Fruits -->
+      <label for="fruits">Fruits:</label>
+      <select id="fruits" name="fruits" multiple>
+        <option value="banana">Banana</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="blueberry">Blueberry</option>
+        <option value="mango">Mango</option>
+      </select>
+
+      <!-- Add-Ons -->
+      <label for="addOns">Add-Ons:</label>
+      <input type="checkbox" id="protein" name="addOns" value="Protein"> Protein
+      <input type="checkbox" id="sweetener" name="addOns" value="Sweetener"> Sweetener
+      <input type="checkbox" id="seeds" name="addOns" value="Seeds"> Seeds
+
+      <!-- Submit Button -->
+      <button type="submit">Place Order</button>
+    </form>
+
+    <div id="orderSummary">
+      <h2>Your Smoothie Order:</h2>
+      <p id="orderDescription"></p>
+    </div>
+  </div>
+
+  <script src="smoothie.js"></script>
+</body>
+</html>

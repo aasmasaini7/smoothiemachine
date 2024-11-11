@@ -1,0 +1,67 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f264a2;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Container for the content */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f088cc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styling */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  select, input[type="checkbox"], button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #f6f471;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f9f110;
+  }
+  
+  /* Styling the order summary */
+  #orderSummary {
+    margin-top: 30px;
+    background-color: #f88fa1;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  #orderDescription {
+    font-size: 16px;
+    color: #555;
+  }
+  
